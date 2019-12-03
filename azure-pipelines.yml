@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'Windows 10'
+
 
 steps:
 - script: echo Hello, world!
