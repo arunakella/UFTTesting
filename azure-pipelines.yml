@@ -19,4 +19,5 @@ steps:
   displayName: 'Run a multi-line script'
 - task: RunFromFileSystemTask@1
   inputs:
-  - task: ReportTask@1
+    testPathInput: 'C:\AutomatedTests\AreaManager101'
+- task: ReportTask@1
